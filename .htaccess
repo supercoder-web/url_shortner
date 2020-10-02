@@ -1,0 +1,4 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+# Rewrite for url_link?id=xxxxx
+RewriteRule ^url_link/([0-9a-zA-Z]+)$ url_link.php?id=$1 [NC,L]
